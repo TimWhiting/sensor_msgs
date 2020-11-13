@@ -1,0 +1,1 @@
+A ROS sensor_msgs package for [dartros](https://pub.dev/packages/dartros)

@@ -1,0 +1,18 @@
+# Auto-generated. Do not edit!
+
+# Updated: Fri Nov 13 09:23:33 2020
+
+
+name: sensor_msgs
+description: A ros sensor_msgs message package for dartros
+version: 0.0.3
+repository: https://github.com/TimWhiting/sensor_msgs_dart
+
+environment:
+  sdk: ">=2.7.0 < 3.0.0"
+
+dependencies:
+  buffer: ^1.0.6
+  dartros: ^0.0.4+3
+  geometry_msgs: ^0.0.3
+  std_msgs: ^0.0.3
