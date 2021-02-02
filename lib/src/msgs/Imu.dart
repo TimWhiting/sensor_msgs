@@ -1,13 +1,14 @@
 // Auto-generated. Do not edit!
 
-// Updated: Fri Nov 13 09:23:33 2020
+// Updated: Mon Feb  1 12:03:03 2021
 
 // (in-package sensor_msgs.msg)
 
 
+// ignore_for_file: unused_import, overridden_fields
 import 'dart:convert';
 import 'package:buffer/buffer.dart';
-import 'package:dartros/msg_utils.dart';
+import 'package:dartros_msgutils/msg_utils.dart';
 import 'package:geometry_msgs/msgs.dart';
 import 'package:std_msgs/msgs.dart';
 
@@ -30,13 +31,13 @@ class Imu extends RosMessage<Imu> {
 
   static Imu $prototype = Imu();
   Imu({ 
-    Header header,
-    Quaternion orientation,
-    List<double> orientation_covariance,
-    Vector3 angular_velocity,
-    List<double> angular_velocity_covariance,
-    Vector3 linear_acceleration,
-    List<double> linear_acceleration_covariance,
+    Header? header,
+    Quaternion? orientation,
+    List<double>? orientation_covariance,
+    Vector3? angular_velocity,
+    List<double>? angular_velocity_covariance,
+    Vector3? linear_acceleration,
+    List<double>? linear_acceleration_covariance,
   }):
   this.header = header ?? Header(),
   this.orientation = orientation ?? Quaternion(),
@@ -46,14 +47,15 @@ class Imu extends RosMessage<Imu> {
   this.linear_acceleration = linear_acceleration ?? Vector3(),
   this.linear_acceleration_covariance = linear_acceleration_covariance ?? List.generate(9, (_) => 0);
 
+  @override
   Imu call({ 
-    Header header,
-    Quaternion orientation,
-    List<double> orientation_covariance,
-    Vector3 angular_velocity,
-    List<double> angular_velocity_covariance,
-    Vector3 linear_acceleration,
-    List<double> linear_acceleration_covariance,
+    Header? header,
+    Quaternion? orientation,
+    List<double>? orientation_covariance,
+    Vector3? angular_velocity,
+    List<double>? angular_velocity_covariance,
+    Vector3? linear_acceleration,
+    List<double>? linear_acceleration_covariance,
   }) => Imu(
   header: header,
   orientation: orientation,

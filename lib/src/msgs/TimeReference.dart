@@ -1,13 +1,14 @@
 // Auto-generated. Do not edit!
 
-// Updated: Fri Nov 13 09:23:33 2020
+// Updated: Mon Feb  1 12:03:03 2021
 
 // (in-package sensor_msgs.msg)
 
 
+// ignore_for_file: unused_import, overridden_fields
 import 'dart:convert';
 import 'package:buffer/buffer.dart';
-import 'package:dartros/msg_utils.dart';
+import 'package:dartros_msgutils/msg_utils.dart';
 import 'package:std_msgs/msgs.dart';
 
 //-----------------------------------------------------------
@@ -21,18 +22,19 @@ class TimeReference extends RosMessage<TimeReference> {
 
   static TimeReference $prototype = TimeReference();
   TimeReference({ 
-    Header header,
-    RosTime time_ref,
-    String source,
+    Header? header,
+    RosTime? time_ref,
+    String? source,
   }):
   this.header = header ?? Header(),
   this.time_ref = time_ref ?? RosTime(secs: 0, nsecs: 0),
   this.source = source ?? '';
 
+  @override
   TimeReference call({ 
-    Header header,
-    RosTime time_ref,
-    String source,
+    Header? header,
+    RosTime? time_ref,
+    String? source,
   }) => TimeReference(
   header: header,
   time_ref: time_ref,

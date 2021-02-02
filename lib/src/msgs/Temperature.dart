@@ -1,13 +1,14 @@
 // Auto-generated. Do not edit!
 
-// Updated: Fri Nov 13 09:23:33 2020
+// Updated: Mon Feb  1 12:03:03 2021
 
 // (in-package sensor_msgs.msg)
 
 
+// ignore_for_file: unused_import, overridden_fields
 import 'dart:convert';
 import 'package:buffer/buffer.dart';
-import 'package:dartros/msg_utils.dart';
+import 'package:dartros_msgutils/msg_utils.dart';
 import 'package:std_msgs/msgs.dart';
 
 //-----------------------------------------------------------
@@ -21,18 +22,19 @@ class Temperature extends RosMessage<Temperature> {
 
   static Temperature $prototype = Temperature();
   Temperature({ 
-    Header header,
-    double temperature,
-    double variance,
+    Header? header,
+    double? temperature,
+    double? variance,
   }):
   this.header = header ?? Header(),
   this.temperature = temperature ?? 0.0,
   this.variance = variance ?? 0.0;
 
+  @override
   Temperature call({ 
-    Header header,
-    double temperature,
-    double variance,
+    Header? header,
+    double? temperature,
+    double? variance,
   }) => Temperature(
   header: header,
   temperature: temperature,

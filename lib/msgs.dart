@@ -1,6 +1,6 @@
 // Auto-generated. Do not edit!
 
-// Updated: Fri Nov 13 09:23:33 2020
+// Updated: Mon Feb  1 12:03:03 2021
 
 
 export 'src/msgs/CompressedImage.dart';

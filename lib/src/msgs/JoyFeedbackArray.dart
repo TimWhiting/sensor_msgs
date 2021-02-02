@@ -1,13 +1,14 @@
 // Auto-generated. Do not edit!
 
-// Updated: Fri Nov 13 09:23:33 2020
+// Updated: Mon Feb  1 12:03:03 2021
 
 // (in-package sensor_msgs.msg)
 
 
+// ignore_for_file: unused_import, overridden_fields
 import 'dart:convert';
 import 'package:buffer/buffer.dart';
-import 'package:dartros/msg_utils.dart';
+import 'package:dartros_msgutils/msg_utils.dart';
 import 'JoyFeedback.dart';
 
 //-----------------------------------------------------------
@@ -17,12 +18,13 @@ class JoyFeedbackArray extends RosMessage<JoyFeedbackArray> {
 
   static JoyFeedbackArray $prototype = JoyFeedbackArray();
   JoyFeedbackArray({ 
-    List<JoyFeedback> array,
+    List<JoyFeedback>? array,
   }):
   this.array = array ?? [];
 
+  @override
   JoyFeedbackArray call({ 
-    List<JoyFeedback> array,
+    List<JoyFeedback>? array,
   }) => JoyFeedbackArray(
   array: array,
   );
